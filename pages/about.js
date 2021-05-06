@@ -1,9 +1,11 @@
 import styles from '../styles/Home.module.css'
 
-export default function Home() {
+const About = () => {
   return (
     <div className={styles.container}>
-      <h1> Home Page</h1>
+      <h1>
+        About Page
+      </h1>
       <p>
         Lorem ipsum paragraphe 1
       </p>
@@ -11,5 +13,7 @@ export default function Home() {
         Lorem ipsum paragraphe 2
       </p>
     </div>
-  )
+  );
 }
+ 
+export default About ;
