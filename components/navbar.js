@@ -1,4 +1,5 @@
 import styles from '../styles/Home.module.css'
+import Link from 'next/link';
 
 const Navbar = () => {
   return (
@@ -8,9 +9,9 @@ const Navbar = () => {
           DEVS-LIST
         </h1>
       </div>
-      <a href="/">Home |</a>
-      <a href="about"> About |</a>
-      <a href="devs/"> Developrs</a>
+      <Link href="/"><a>Home |</a></Link>
+      <Link href="/about"><a> About |</a></Link>
+      <Link href="/devs"><a> Developrs</a></Link>
     </nav>
   );
 }
