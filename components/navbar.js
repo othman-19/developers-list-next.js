@@ -4,8 +4,8 @@ import Link from 'next/link';
 const Navbar = () => {
   return (
     <nav>
-      <div >
-        <h1 className={styles.logo}>
+      <div className="logo">
+        <h1>
           DEVS-LIST
         </h1>
       </div>
