@@ -1,7 +1,15 @@
-import styles from '../styles/Home.module.css'
+import styles from '../styles/Home.module.css';
+import Head from 'next/head';
 
 const About = () => {
   return (
+    <>
+    <Head>
+      <title>
+        Devs list | About
+      </title>
+      <meta name="keywords" content="devs"></meta>
+    </Head>
     <div className={styles.container}>
       <h1>
         About Page
@@ -13,6 +21,7 @@ const About = () => {
         Lorem ipsum paragraphe 2
       </p>
     </div>
+    </>
   );
 }
  
