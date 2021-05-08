@@ -1,13 +1,12 @@
 import styles from '../styles/Home.module.css'
 import Link from 'next/link';
+import Image from 'next/image'
 
 const Navbar = () => {
   return (
     <nav>
       <div className="logo">
-        <h1>
-          DEVS-LIST
-        </h1>
+        <Image src="/icon.png" width={60} height={60} />
       </div>
       <Link href="/"><a>Home |</a></Link>
       <Link href="/about"><a> About |</a></Link>
